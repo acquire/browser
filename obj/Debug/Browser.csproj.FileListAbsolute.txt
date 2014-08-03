@@ -1,0 +1,9 @@
+C:\Users\Mike\Desktop\Browser\Browser\bin\Debug\Browser.exe.config
+C:\Users\Mike\Desktop\Browser\Browser\bin\Debug\Browser.exe
+C:\Users\Mike\Desktop\Browser\Browser\bin\Debug\Browser.pdb
+C:\Users\Mike\Desktop\Browser\Browser\obj\Debug\Browser.Form1.resources
+C:\Users\Mike\Desktop\Browser\Browser\obj\Debug\Browser.Properties.Resources.resources
+C:\Users\Mike\Desktop\Browser\Browser\obj\Debug\Browser.csproj.GenerateResource.Cache
+C:\Users\Mike\Desktop\Browser\Browser\obj\Debug\Browser.exe
+C:\Users\Mike\Desktop\Browser\Browser\obj\Debug\Browser.pdb
+C:\Users\Mike\Desktop\Browser\Browser\obj\Debug\Browser.csprojResolveAssemblyReference.cache
