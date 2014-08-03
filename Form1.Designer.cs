@@ -31,8 +31,8 @@
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnBack = new System.Windows.Forms.Button();
+            this.btnName = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -66,8 +66,8 @@
             // 
             // splitContainer1.Panel1
             // 
-            this.splitContainer1.Panel1.Controls.Add(this.button2);
-            this.splitContainer1.Panel1.Controls.Add(this.button1);
+            this.splitContainer1.Panel1.Controls.Add(this.btnBack);
+            this.splitContainer1.Panel1.Controls.Add(this.btnName);
             this.splitContainer1.Panel1.Controls.Add(this.textBox1);
             // 
             // splitContainer1.Panel2
@@ -77,25 +77,25 @@
             this.splitContainer1.SplitterDistance = 31;
             this.splitContainer1.TabIndex = 2;
             // 
-            // button2
+            // btnBack
             // 
-            this.button2.Location = new System.Drawing.Point(3, 5);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(46, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "<";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnBack.Location = new System.Drawing.Point(3, 5);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(46, 23);
+            this.btnBack.TabIndex = 1;
+            this.btnBack.Text = "<";
+            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
-            // button1
+            // btnName
             // 
-            this.button1.Location = new System.Drawing.Point(406, 6);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Go";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnName.Location = new System.Drawing.Point(406, 6);
+            this.btnName.Name = "btnName";
+            this.btnName.Size = new System.Drawing.Size(75, 23);
+            this.btnName.TabIndex = 2;
+            this.btnName.Text = "Go";
+            this.btnName.UseVisualStyleBackColor = true;
+            this.btnName.Click += new System.EventHandler(this.btnGo_Click);
             // 
             // Form1
             // 
@@ -119,8 +119,8 @@
         private System.Windows.Forms.WebBrowser webBrowser1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.SplitContainer splitContainer1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnName;
+        private System.Windows.Forms.Button btnBack;
     }
 }
 

@@ -18,12 +18,12 @@ namespace Browser
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(CheckEnterKeyPress);
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnGo_Click(object sender, EventArgs e)
         {
             webBrowser1.Navigate(textBox1.Text);
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnBack_Click(object sender, EventArgs e)
         {
             webBrowser1.GoBack();
         }
@@ -36,6 +36,7 @@ namespace Browser
                 e.Handled = true;
             }
         }
+
 
     }
 }
